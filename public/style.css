@@ -1,0 +1,127 @@
+
+body{
+    background-image: url('./Images/cute\ heart.png');
+    background-size: cover;
+    
+    height: 100%;
+}
+
+.heading{
+position: relative;
+  padding: 2px;
+  height:60px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+  background-color:pink;
+    
+   
+}
+.Application{
+
+  background-image: url('./Images/cute\ heart.png');
+  background-size: cover;
+}
+.inputarea{
+  position: relative;
+  width: 480px;
+  margin-top:30px;
+  margin-left: 400px;
+  background-color:rgb(251, 238, 240);
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+
+
+}
+.inputarea input,
+.inputarea textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+.Appli{
+  border:20px solid green;
+}
+.button {
+ 
+
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  position: relative;
+  left:400px;
+  top:30px;
+  border: 1px solid rgb(192, 51, 75);
+  box-shadow: 2px 2px 4px rgb(192, 51, 75);
+ 
+}
+.notebutton {
+ 
+
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  position: relative;
+  left:200px;
+  top:30px;
+  border: 1px solid rgb(192, 51, 75);
+  box-shadow: 2px 2px 4px rgb(192, 51, 75);
+ 
+}
+
+.container{
+    display:flex;
+}
+.heading>h1{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+ color:rgb(192, 51, 75);
+   position: relative;
+    bottom: 10px;
+   
+}
+
+  .note p {
+    font-size: 1.1em;
+   
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  } 
+
+.note{
+   
+   
+    width:250px;
+    float:left;
+    height:auto;
+    text-align: left;
+    border-top: 1px solid black;
+    border-left:1px solid black;
+    color:rgb(192, 51, 75);
+    box-shadow: 2px 5px;
+    background-color:rgb(251, 238, 240);
+    border-radius: 2.5%;
+    padding:10px;
+    margin:10px;
+}
+.note>h1{
+    
+    margin-left: 20px;
+}
+
+
+.foot{
+    position:fixed;
+    width:100%;
+    left:0;
+    bottom:0;
+    text-align:center;
+    background-color:pink;
+    color:rgb(192, 51, 75);
+    
+}
